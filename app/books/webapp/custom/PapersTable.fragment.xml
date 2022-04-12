@@ -7,9 +7,14 @@
     <Dialog
         contentWidth="40rem"
         title="Papers Table">
+        <Text text="Please note that this is a different entity than the one on the Object Page." />
         <macros:Table 
             id="papersTable"
             metaPath="@com.sap.vocabularies.UI.v1.LineItem"
         />
+        <!-- 
+            Adding readOnly="false" above does not enable editability 
+            unless Object Page is in edit mode. 
+        -->
     </Dialog>
 </core:FragmentDefinition>
