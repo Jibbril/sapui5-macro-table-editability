@@ -1,13 +1,6 @@
 sap.ui.define([
-    /**
-     * Event handler for the TeamColumn
-     * 
-     * Handles user interaction by opening popovers when user 
-     * presses the team button
-     */
-    "sap/ui/core/Fragment"
-    
-], function(Fragment) {
+
+], function() {
     "use strict";
 
     return {

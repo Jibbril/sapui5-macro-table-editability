@@ -4,7 +4,7 @@
     xmlns:f="sap.f">
 
     <VBox
-        core:require="{handler: 'ns.books.custom.HeaderButton.js'}">
+        core:require="{handler: 'ns/books/custom/HeaderButton'}">
         <Button id="headerButton" text="Open Fragment" press="handler.onButtonPressed" />
     </VBox>
 </core:FragmentDefinition>

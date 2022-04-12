@@ -114,7 +114,16 @@
                     "options": {
                         "settings": {
                             "editableHeaderContent": false,
-                            "entitySet": "Books"
+                            "entitySet": "Books",
+                            "content": {
+                                "header": {
+                                    "facets": {
+                                        "CustomFacet": {
+                                            "template": "ns.books.custom.HeaderButton"
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
