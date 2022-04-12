@@ -9,6 +9,21 @@ annotate service.Books with @(
     ]
 );
 
+annotate service.Papers with @(
+    UI.LineItem: [
+        {
+            $Type : 'UI.DataField',
+            Label : 'ID',
+            Value : ID,
+        },
+        {
+            $Type : 'UI.DataField',
+            Label : 'Color',
+            Value : color,
+        },
+    ]
+);
+
 
 annotate service.Books with @(
     UI.LineItem : [
